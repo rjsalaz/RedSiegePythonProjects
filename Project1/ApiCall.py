@@ -2,7 +2,8 @@ import requests
 
 def getIpInfo(ipAddress):
 
-    apiKey: str = "807a4e07686e4e848904720eafab7430" 
+    # Your key goes here
+    apiKey: str = "" 
     apiUrl: str = "https://api.ipgeolocation.io/ipgeo"
 
     payload= {"apiKey":apiKey, "ip":ipAddress}
